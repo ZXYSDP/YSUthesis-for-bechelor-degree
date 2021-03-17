@@ -70,7 +70,7 @@
 \RequirePackage[sort&compress]{gbt7714}
 %% 页面设置宏包 geometry
 \RequirePackage[top=3cm,bottom=3cm,left=2.8cm,right=2.8cm,%  bottom=3cm,left=3cm,right=3cm, % mzhy55
-                headheight=10mm,headsep=1mm,footskip=10mm,dvipdfm]{geometry}
+                headheight=5mm,headsep=0mm,footskip=5mm,dvipdfm]{geometry}
 %% 行间距宏包 setspace
 \RequirePackage{setspace}
 %% 各种表格宏包
