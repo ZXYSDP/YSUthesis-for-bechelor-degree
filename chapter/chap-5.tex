@@ -17,10 +17,10 @@
 
 在正文中，引用参考文献格式要求如下。
 
-如果是单个作者的文献，应该写成：Kivshar\supercite {Kivshar2008}研究了...，得到了...结果。
+如果是单个作者的文献，应该写成：Kivshar\supercite {babuDesignImplementationTwoWheeled2016}研究了...，得到了...结果。
 
-如果是多个作者的文献，应该写成：Knight等\supercite{Knight1996}研究了...，得到了...结果。
-姚建铨等\supercite{yaojianquan2009}研究了...，得到了...结果。只需要列出第一个作者加上``等''字即可。中英文的文献是一样的标准，都是加上`` 等''字。
+如果是多个作者的文献，应该写成：Knight等\supercite{desouzaComparisonExperimentalPID2016}研究了...，得到了...结果。
+姚建铨等\supercite{hejunhuZiPingHengCheKongZhiFangFaYanJiuJiFangZhenFenXi2019}研究了...，得到了...结果。只需要列出第一个作者加上``等''字即可。中英文的文献是一样的标准，都是加上`` 等''字。
 
 文献的序号紧接着名字出现，而不是放到这句话的最后面，大家要统一一下。
 
@@ -44,7 +44,7 @@ Knight等\supercite{Knight1996}研究了...Russell是光子晶体光纤之父...
 \end{verbatim}
 其中“Knight1996”是我要引用的文献的BibTeX 键。输出的结果为：
 
-Knight等\supercite{Knight1996}研究了...Russell是光子晶体光纤之父...。
+Knight等\supercite{jinyongboLiangLunZiPingHengXiaoCheDeSheJiYuShiXian2018}研究了...Russell是光子晶体光纤之父...。
 
 注意文献的编号是自动生成的，并且具有超链接功能。单击编号可以定位到文末的参考文献章节。
 
@@ -55,7 +55,7 @@ Knight等\supercite{Knight1996}研究了...Russell是光子晶体光纤之父...
 \end{verbatim}
 输出结果为：
 
-我要引用2篇文献\supercite{Knight1996,Knight2000}。
+我要引用2篇文献\supercite{liuchunyangLiangLunZiPingHengXiaoCheDeXiTongSheJiYuShiXian2018,liuyongpengJiYuSTM32DeZhiNengPingHengCheSheJi2018}。
 
 
 如果是3 篇或者以上，加入更多BibTeX 键即可。例如：
@@ -64,7 +64,7 @@ Knight等\supercite{Knight1996}研究了...Russell是光子晶体光纤之父...
 \end{verbatim}
 输出结果为：
 
-3篇文献\supercite{Knight1996,Knight2000,Knight2002}。
+3篇文献\supercite{lizijingJiYuDanPianJiDeLiangLunPingHengCheSheJi2020,panerweiJiYuSTM32DeLiangLunZiPingHengCheSheJiYuShiXian2018,pengDesignImplementationSelfbalancing2018}。
 
 更多文献的例子：
  \begin{verbatim}
@@ -73,9 +73,9 @@ Jastrow2008,Jackson2008,Huttunen2005,Hou2008,Hilligsoe2004,%
 Hassani2008,Han2002}。
 \end{verbatim}
 
-输出的结果为：很多很多文献\supercite{John1987,Jing2010,Jeon2005,%
-Jastrow2008,Jackson2008,Huttunen2005,Hou2008,Hilligsoe2004,%
-Hassani2008,Han2002}。
+输出的结果为：很多很多文献\supercite{wangleiJiYuSTM32DeLiangLunZiPingHengXiaoCheKongZhiXiTongSheJi2018,wangwenJiYuZiTaiJianCeDeLiangLunZiPingHengCheKongZhiFangFaYanJiu2019,wenshuangyunLiangLunZiPingHengXiaoCheKongZhiSuanFaDeYanJiuYuYouHua2017,%
+wuzhenleiYiZhongJiYuPIDSuanFaDeZiPingHengCheKongZhiXiTongSheJi2019,yangzhiqiangJiYuSTM32C8T6DeZhiNengErLunZiPingHengXiaoCheDeSheJi2020,zimitModellingExperimentalAnalysis2018,caichangtaoLiangLunXiaoCheZiPingHengKongZhiXiTongDeYanJiuYuSheJi2018,chenyuJiYuSTM32KongZhiDePingHengXiaoCheXiTongSheJi2020,%
+chhotrayKinematicAnalysisTwoWheeled2016,congyuhuaLiangLunZiPingHengXiaoCheDeSheJiJiShiXian2020}。
 
 
 
@@ -83,12 +83,12 @@ Hassani2008,Han2002}。
  \begin{verbatim}
 四个不连续文献\supercite{Zhu2004,Zhu2001,Han2002,Knight1996}。
 \end{verbatim}
-四个不连续文献\supercite{Zhu2004,Zhu2001,Han2002,Knight1996}。
+四个不连续文献\supercite{desouzaComparisonExperimentalPID2016,hejunhuZiPingHengCheKongZhiFangFaYanJiuJiFangZhenFenXi2019,huangqiangShuangBiHuanPIDKongZhiDeLiangLunPingHengXiaoCheSheJiYuShiXian2020,lishuainanJiYuSTM32KongZhiDeShuangLunZiPingHengXiaoCheDeSheJi2018}。
 
 专利及学位论文格式如下：
-\cite{jxz,Yu2004,Zhao2013}。
+\cite{caichangtaoLiangLunXiaoCheZiPingHengKongZhiXiTongDeYanJiuYuSheJi2018}。
 
-多个作者的中文文献显示如下\cite{yaojianquan2009}，language=\{Chinese\}很重要，在bib文件中，中文文献要加上！会议论文的格式如下\cite{Li1998}。
+多个作者的中文文献显示如下\cite{hewentaoSTM32KongZhiQiDeZiTaiJieSuanHuBuLuBoQiSheJi2020}，language=\{Chinese\}很重要，在bib文件中，中文文献要加上！会议论文的格式如下\cite{duliminJiYuDanPianJiDeLiangLunZiDongPingHengXiaoCheXiTongDeSheJi2020}。
 
 
 \section{本章小结}\label{section5-4}

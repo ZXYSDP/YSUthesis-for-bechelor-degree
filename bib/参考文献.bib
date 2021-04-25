@@ -1,0 +1,301 @@
+
+@inproceedings{babuDesignImplementationTwoWheeled2016,
+  title = {Design and {{Implementation}} of {{Two}}-{{Wheeled Self}}-{{Balancing Vehicle Using Accelerometer}} and {{Fuzzy Logic}}},
+  booktitle = {Proceedings of the {{Second International Conference}} on {{Computer}} and {{Communication Technologies}}},
+  author = {Babu, Sunu S. and Pillai, Anju S.},
+  editor = {Satapathy, Suresh Chandra and Raju, K. Srujan and Mandal, Jyotsna Kumar and Bhateja, Vikrant},
+  year = {2016},
+  pages = {45--53},
+  publisher = {{Springer India}},
+  address = {{New Delhi}},
+  abstract = {Two-wheeled self-balancing vehicle commercially known as ``Segway'' is a promising upcoming mode of transportation in many fields viz. corporate worlds, tourist place, medical field, or for personal use. In this paper, a control strategy and sensor-based control of two-wheeled self-balancing vehicle is proposed. The concept of the stabilizing the vehicle is inspired from the inverse pendulum theory. Based on steady-state space mathematical model, the entire system control is divided into two subsystems: self-balance control system (forward or backward motion balancing) and yaw control system (left or right movement). The control strategy used is fuzzy logic and is applied to both subsystems. A prototype model of the self-balancing vehicle is developed and the proposed mathematical model and control logic are verified by testing on the developed prototype.},
+  isbn = {978-81-322-2526-3}
+}
+
+@phdthesis{caichangtaoLiangLunXiaoCheZiPingHengKongZhiXiTongDeYanJiuYuSheJi2018,
+  title = {两轮小车自平衡控制系统的研究与设计},
+  author = {采长涛 and 凌六一},
+  year = {2018},
+  abstract = {随着传统交通工具带来的能源危机、交通拥堵、环境污染等问题日益凸显,人们对新型交通工具的需求日益迫切。两轮自平衡小车体积小、方便携带,并且采用电池供电不会产生尾气,是现今交通运输领域研究的重点。同时,两轮自平衡小车是动态稳定的系统,它有着强耦合、非线性、欠驱动、多变量的特点。因此可以在两轮自平衡小车这个平台上对各种控制算法进行验证,具有一定的理论研究意义。在两轮自平衡小车领域国内外研究现状的基础上,本文对小车的姿态角检测和自平衡控制进行了研究。首先,采用牛顿力学原理对小车的车轮、车身和电机分别建立数学模型,并根据三者之间的关系建立小车整体系统的模型。然后,对小车模型在平衡位置进行线性化,得到简化模型。对简化的模型进行能观性和能控性分析并采用PID控制理论对小车系统设计平衡控制器。小车的姿态角包括车身倾角和偏航角,它是小车控制器设计的重要变量,因此姿态角的准确性显得尤为重要。在本文中使用四元数来描述姿态角,并且对微机电系统(MEMS)采集到的数据利用扩展卡尔曼滤波(EKF)原理进行融合,得到更为准确的姿态角。最后,对小车各个模块选择相应的芯片,组装小车实体模型。对两轮自平衡小车的驱动电路、主控电路、检测电路、无线通信电路进行设计,并对各部分编写程序,使小车能够正常工作。在Matlab中对小车PID控制以及EKF数据融合进行了仿真分析,结果表明小车的PID控制器能够很好的对小车稳定控制,而利用EKF融合使得小车姿态角则更加准确。在搭建的两轮自平衡小车实物展示中,小车能够保持良好平衡控制效果。},
+  keywords = {自平衡小车;四元数;扩展卡尔曼滤波;PID控制},
+  school = {安徽理工大学},
+  type = {硕士}
+}
+
+@article{chenyuJiYuSTM32KongZhiDePingHengXiaoCheXiTongSheJi2020,
+  title = {{{基于STM32控制的平衡小车系统设计}}},
+  author = {陈昱 and 沈林涛 and 王凯},
+  year = {2020},
+  volume = {19},
+  pages = {117--121},
+  abstract = {为了响应节能环保、绿色出行倡议,缓解城市交通拥挤状况,提出一种基于STM32F103C8T6芯片控制的两轮平衡小车设计方案。以MPU-6050作为小车姿态传感器获取小车车体倾角和角速度,基于卡尔曼滤波算法对姿态传感器采集到的的数据进行滤波融合,利用霍尔编码器测量小车车轮转向和转速,运用PID算法对控制要求和采集的数据信息进行计算分析并输出控制PWM,经由TB6612电机驱动模块驱动电机,实现小车自主平衡并具备一定的抗干扰能力。另外小车通过蓝牙模块与手机APP通信,可通过手机端控制小车前进、后退、转弯等动作。},
+  isbn = {1672-7800},
+  journal = {软件导刊},
+  keywords = {STM32;PID;MPU-6050;卡尔曼滤波;自平衡},
+  lccn = {42-1671/TP},
+  number = {08}
+}
+
+@inproceedings{chhotrayKinematicAnalysisTwoWheeled2016,
+  title = {Kinematic {{Analysis}} of a {{Two}}-{{Wheeled Self}}-{{Balancing Mobile Robot}}},
+  booktitle = {Proceedings of the {{International Conference}} on {{Signal}}, {{Networks}}, {{Computing}}, and {{Systems}}},
+  author = {Chhotray, Animesh and Pradhan, Manas K. and Pandey, Krishna K. and Parhi, Dayal R.},
+  editor = {Lobiyal, Daya K. and Mohapatra, Durga Prasad and Nagar, Atulya and Sahoo, Manmath N.},
+  year = {2016},
+  pages = {87--93},
+  publisher = {{Springer India}},
+  address = {{New Delhi}},
+  abstract = {This paper describes the development of a two-wheeled self-balancing robot and its kinematic analysis. The system architecture consists of two co-axial wheeled rectangular structure powered by a pair of DC motors. Two separate motor drivers are controlled by pulse width modulated voltage signals received from the Arduino microcontroller board. The attitude determination of the robotic platform can be accomplished by an IMU sensor, which is a combination of accelerometer and rate gyro. After mechanical system design, the velocity decomposition of the two wheels and robot body are analyzed to establish the kinematic model. In this model, local position of the robot is mapped according to the global coordinates. Finally, the kinematic constraints are established for fixed standard wheels of the two-wheeled robot.},
+  isbn = {978-81-322-3589-7}
+}
+
+@article{congyuhuaLiangLunZiPingHengXiaoCheDeSheJiJiShiXian2020,
+  title = {两轮自平衡小车的设计及实现},
+  author = {丛玉华 and 吴洪佳 and 朱惠娟 and 朱娴 and 谢玲},
+  year = {2020},
+  pages = {106--109},
+  abstract = {本文为加强《嵌入式控制系统》课程理论和实践的结合,设计了两轮自平衡小车综合实验平台,首先进行了两轮自平衡小车系统的总体功能分析和结构设计;其次构建机械框架、设计控制系统电路;然后进行程序设计,实现对两轮自平衡小车的基本控制;最后通过测试验证两轮自平衡小车功能实现的有效性。},
+  isbn = {2095-5650},
+  journal = {电子技术与软件工程},
+  keywords = {嵌入式技术;自控原理;自平衡小车},
+  lccn = {10-1108/TP},
+  number = {19}
+}
+
+@inproceedings{desouzaComparisonExperimentalPID2016,
+  title = {Comparison {{Among Experimental PID Auto Tuning Methods}} for a {{Self}}-Balancing {{Robot}}},
+  booktitle = {Robotics},
+  author = {{de Souza}, Marcus Romano Salles Bernardes and Murofushi, Rodrigo Hiroshi and Tavares, Jos{\'e} Jean-Paul Zanlucchi de Souza and Ribeiro, Jos{\'e} Francisco},
+  editor = {Santos Os{\'o}rio, Fernando and Sales Gon{\c c}alves, Rog{\'e}rio},
+  year = {2016},
+  pages = {72--86},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  abstract = {A self-balancing robot, also known as two-wheeled vehicle is an unstable system and it can be approximated to inverted pendulum, so there is a need of a suitable controller so that it can be stabilized. This paper compares five PID design techniques without mathematical model of the system in order to remain it stand. The PID tuning methods discussed are Manual, Ziegler-Nichols, Relay, Augmented Ziegler-Nichols and Augmented Relay. The augmented method modifies the PID constants online depending on the error value and use a Ziegler-Nichols or Relay PID tuned controller as initial one. Some experimental results presented suggest that the Ziegler-Nichols tuning method is slightly better than the other techniques. All the electronic gadgets and algorithms are embedded in the prototype.},
+  isbn = {978-3-319-47247-8}
+}
+
+@article{duliminJiYuDanPianJiDeLiangLunZiDongPingHengXiaoCheXiTongDeSheJi2020,
+  title = {基于单片机的两轮自动平衡小车系统的设计},
+  author = {杜丽敏 and 王岩},
+  year = {2020},
+  volume = {30},
+  pages = {19-24+38},
+  abstract = {通过对倒立摆模型的受力分析,使两轮小车保持自平衡运行状态。硬件上采用STM32F103ZET6单片机为核心控制器,利用MPU6050检测小车的速度和加速度,选择L298N驱动两个两相直流电机,采用霍尔测速码盘获得电机的转速,通过电磁检测电路实现电磁轨迹跟踪。软件上采用PI和PD构成串级控制算法,MPU6050采集到的小车姿态数据经卡尔曼滤波进行数据处理。最终实现了平衡车的稳定控制,完成了小车直立和行走功能。},
+  isbn = {1009-3907},
+  journal = {长春大学学报},
+  keywords = {两轮自动平衡小车;STM32F103ZET6;MPU6050;串级控制器;卡尔曼滤波},
+  lccn = {22-1283/G4},
+  number = {12}
+}
+
+@article{hejunhuZiPingHengCheKongZhiFangFaYanJiuJiFangZhenFenXi2019,
+  title = {自平衡车控制方法研究及仿真分析},
+  author = {何军虎 and 鞠剑平},
+  year = {2019},
+  pages = {144-146+152},
+  abstract = {针对自平衡车的自平衡阶段控制和转向阶段控制问题,提出了基于参数优化自抗扰技术和改进PID技术的自平衡车控制方法,首先基于拉格朗日公式建立自平衡车非线性模型及其控制策略,运用自适应进化算法进行模型参数的优化调整,调然后用过滤过程安排改进的PID控制策略进行模型转向控制,最后使用Matlab/Simulink进行自平衡车控制效果仿真分析。仿真实验结果表明,提出的控制策略能够快速调整平衡车姿态,且具有较好的控制平衡和转向精度以及较强的抗干扰能力。},
+  isbn = {1001-3997},
+  journal = {机械设计与制造},
+  keywords = {自平衡车控制;参数优化自抗扰;自适应进化算法;过滤过程安排},
+  lccn = {21-1140/TH},
+  number = {07}
+}
+
+@article{hewentaoSTM32KongZhiQiDeZiTaiJieSuanHuBuLuBoQiSheJi2020,
+  title = {{{STM32控制器的姿态解算互补滤波器设计}}},
+  author = {贺文涛 and 杨睿 and 秦睿},
+  year = {2020},
+  volume = {20},
+  pages = {52--55},
+  abstract = {基于STM32嵌入式系统,设计了一种互补滤波器实现姿态解算。由于低成本MEMS传感器的测量精度较差,单个传感器很难准确得到载体的姿态,通过MEMS陀螺仪、加速度计和磁力计的多传感器数据融合来完成互补滤波。为了验证互补滤波器在姿态解算中的有效性,搭建了STM32嵌入式系统硬件平台,并且在高精度转台上进行了测试,实验结果表明,互补滤波器能有效得出载体姿态,并且俯仰角和横滚角精度在{$\pm$}0.7\textdegree 内,偏航角在{$\pm$}1.5\textdegree 内,可以方便地应用于光电吊舱及小型无人机飞行控制平台。},
+  isbn = {1009-623X},
+  journal = {单片机与嵌入式系统应用},
+  keywords = {互补滤波;姿态解算;多传感器;STM32F427},
+  lccn = {11-4530/V},
+  number = {10}
+}
+
+@article{huangqiangShuangBiHuanPIDKongZhiDeLiangLunPingHengXiaoCheSheJiYuShiXian2020,
+  title = {{{双闭环PID控制的两轮平衡小车设计与实现}}},
+  author = {黄强 and 唐杰 and 林立 and 王源明 and 朱群峰},
+  year = {2020},
+  volume = {17},
+  pages = {35--39},
+  abstract = {针对多变量、强耦合、高度不稳定,非线性的两轮平衡小车控制问题进行了研究,采用双闭环PID控制算法对小车进行了控制。角度环采用PD控制算法,速度环采用PI控制算法,速度环弥补了角度环控制的不足。系统利用超声波检测回来的小车与物体的距离,通过区间判断来叠加或减小一个固定值控制PWM脉冲的占空比,增加系统的响应速度。搭建了两轮平衡小车样机,通过系统的软硬件设计、调试及运行情况,验证了双闭环PID控制算法的有效性,实现了小车稳定平衡控制。},
+  isbn = {1672-7010},
+  journal = {邵阳学院学报(自然科学版)},
+  keywords = {双闭环;两轮平衡小车;PID控制;PWM;角度环;速度环},
+  lccn = {43-1429/N},
+  number = {03}
+}
+
+@article{jinyongboLiangLunZiPingHengXiaoCheDeSheJiYuShiXian2018,
+  title = {两轮自平衡小车的设计与实现},
+  author = {金永波 and 张士金 and 李宗帅 and 费春国},
+  year = {2018},
+  pages = {5--7},
+  abstract = {两轮自平衡车的出现,给现阶段交通引入全新的定义,将人们的交通出行带上了一个智能化、便携化的平台,本文借鉴目前国内外两轮自平衡车的成功经验,设计了一款以STM32微处理器为控制中心,MPU6050为姿态感知模块,TB6612为电机驱动模块的硬件系统,通过滤波算法对数据进行融合处理,PID算法控制电机转动,从而实现一种新型、结构简单、低成本的两轮自平衡车,使其实现自平衡功能。},
+  isbn = {1006-5059},
+  journal = {电子制作},
+  keywords = {自平衡;PID;自动控制;STM32F103},
+  lccn = {11-3571/TN},
+  number = {08}
+}
+
+@article{lishuainanJiYuSTM32KongZhiDeShuangLunZiPingHengXiaoCheDeSheJi2018,
+  title = {{{基于STM32控制的双轮自平衡小车的设计}}},
+  author = {李帅男},
+  year = {2018},
+  volume = {8},
+  pages = {34--35},
+  abstract = {该设计作为自平衡小车的初步研究,目的是通过软硬件设计做出一个两轮机器人,使其在供电后,可实现无人干预下自主平衡直立。以STM32f103c8T6单片机作为主控芯片,集成陀螺仪和加速度计的六轴运动处理组件MPU6050作为姿态传感器,这里用互补滤波算法对采集的数据信息进行融合,来克服数据的不准确性,以TB6612来控制两个大功率直流电机,在直立控制方面,采用角度和角速度反馈,以PD控制来实现直立平衡。},
+  isbn = {2095-0748},
+  journal = {现代工业经济和信息化},
+  keywords = {两轮自平衡;STM32;互补滤波;PID控制},
+  lccn = {14-1362/N},
+  number = {13}
+}
+
+@article{liuchunyangLiangLunZiPingHengXiaoCheDeXiTongSheJiYuShiXian2018,
+  title = {两轮自平衡小车的系统设计与实现},
+  author = {刘春阳 and 刘幸 and 杨曼 and 王帅 and 徐巧玉 and 薛玉君},
+  year = {2018},
+  volume = {37},
+  pages = {70--74},
+  abstract = {两轮自平衡小车是以倒立摆模型为基础的动态平衡系统,针对系统设计中的车身结构、姿态检测与动态平衡控制等关键问题进行研究。采用一体化轮毂电机作为自平衡小车的驱动单元,设计轻量化车身结构以降低车身重量和能量损耗。控制系统采用含有加速度计、陀螺仪、电子罗盘的9轴姿态检测传感器检测车身姿态角度,利用卡尔曼滤波算法进行数据融合,获得姿态角度的最优估计,借助PID运动控制算法驱动轮毂电机运动,实现自平衡小车车身的动态平衡。通过参数优化,提升了系统的响应速度,将姿态角度估计的误差降低到0.5\textdegree 以内,实现了两轮小车自主动态平衡功能,为两轮自平衡小车的设计提供了一种简单、可行、低成本的设计方案。},
+  isbn = {1000-8829},
+  journal = {测控技术},
+  keywords = {自平衡小车;车身结构;姿态检测;卡尔曼滤波;动态平衡},
+  lccn = {11-1764/TB},
+  number = {02}
+}
+
+@article{liuyongpengJiYuSTM32DeZhiNengPingHengCheSheJi2018,
+  title = {{{基于STM32的智能平衡车设计}}},
+  author = {刘永鹏},
+  year = {2018},
+  volume = {26},
+  pages = {39},
+  abstract = {近年来,两轮自平衡小车的研究开始在美国、日本、瑞士等国得到迅速的发展,建立了多个实验原机型,提出众多解决平衡控制的方案,并对原机型的自动平衡性能与运动特性进行了验证。通过对两轮自平衡系统的改造,可快速方便地应用到众多环境中去,如承载、运输、代步等。这其中蕴藏着巨大的商机,国外一些公司现在已经推出了商业化产品,并且已经投放到了市场。},
+  isbn = {2096-1995},
+  journal = {科技经济导刊},
+  keywords = {STM32;单片机;PID控制;卡尔曼滤波;MPU6050;两轮自平衡小车},
+  lccn = {37-1508/N},
+  number = {30}
+}
+
+@article{lizijingJiYuDanPianJiDeLiangLunPingHengCheSheJi2020,
+  title = {基于单片机的两轮平衡车设计},
+  author = {李姿景 and 张具琴 and 于俊杰 and 职宏霖},
+  year = {2020},
+  volume = {43},
+  pages = {1--5},
+  abstract = {两轮自平衡小车是一个高度不稳定两轮机器人系统,针对现有自平衡车系统稳定性不佳、功能单一、行进过程中易发生越障、碰撞等异常事件等问题,给出了以32位ARM处理器STM32F103C8T6为控制核心的两轮平衡车设计方案。系统硬件主要由主控模块、姿态检测模块、电机驱动模块、超声波测距模块、蓝牙模块及OLED显示组成,数据处理部分主要涉及PID算法和互补滤波。样机实验结果表明,载物台上放5 kg以内重物时,通过手机APP遥控器控制小车实现前进、后退、左转、右转等功能,小车主控系统通过调节小车姿态,俯仰角变化范围小于{$\pm$}9\textdegree,能够达到良好的自平衡状态,同时,系统加入了超声避障与OLED显示,能够实时读取障碍距离及小车俯仰角等数据,避免异常事件发生的同时,也增强了人机交互的便捷性,具有人性化的特点。},
+  isbn = {1002-7300},
+  journal = {电子测量技术},
+  keywords = {STM32F103C8T6;姿态检测;PID控制;互补滤波},
+  lccn = {11-2175/TN},
+  number = {23}
+}
+
+@phdthesis{panerweiJiYuSTM32DeLiangLunZiPingHengCheSheJiYuShiXian2018,
+  title = {{{基于STM32的两轮自平衡车设计与实现}}},
+  author = {潘二伟 and 张鹏;何艳},
+  year = {2018},
+  abstract = {自平衡车结构简单、控制灵活,能够适应多种复杂场合,其相关应用已经在安保、民用代步工具等领域投入使用。对自平衡车的设计和研究,其相关理论算法和设计思路能够为自平衡车应用提供新的设计方案,具有广阔的应用前景。本文首先对自平衡车进行数学建模。建立自平衡车瞬时力学平衡方程,对控制电机进行线性化处理,建立自平衡车状态空间模型。通过MATLAB验证了该模型的可观性和能控性。然后从自平衡车的功能角度,对其硬件系统进行设计,对关键模块进行选型和计算,确保设计的合理性和科学性。算法设计是本文的重点。本文通过Kalman滤波算法对陀螺仪和加速度计信号进行滤波融合,使自平衡车姿态信息更加准确。同时针对自平衡车系统的不稳定性,设计了LQR控制器,并用Simulink进行仿真,仿真结果表明该算法对自平衡车的姿态具有很好的控制效果。最后,搭建自平衡车控制平台,对自平衡车进行调试,调试结果表明该设计能够很好地实现自平衡车的各项功能。},
+  keywords = {自平衡车;数学建模;硬件设计;Kalman滤波器;LQR控制算法},
+  school = {黑龙江大学},
+  type = {硕士}
+}
+
+@inproceedings{pengDesignImplementationSelfbalancing2018,
+  title = {Design and {{Implementation}} of {{Self}}-Balancing {{Robot Based}} on {{STM32}}},
+  booktitle = {Computational {{Intelligence}} and {{Intelligent Systems}}},
+  author = {Peng, Ling and Zhou, Chunhui},
+  editor = {Li, Kangshun and Li, Wei and Chen, Zhangxing and Liu, Yong},
+  year = {2018},
+  pages = {365--375},
+  publisher = {{Springer Singapore}},
+  address = {{Singapore}},
+  abstract = {The two-wheeled self-balancing robot has a simple structure, low cost and high flexibility, which is very suitable for indoor space. In this paper, we designed a self-balancing robot, by using the STM32 microprocessor as the main controller, and the attitude sensor MPU6050 is used to collect the obliquity and angular velocity. However, the gyroscope and the accelerometer make noise interference and drift error, the Kalman filter algorithm, therefore, is used to fuse the obliquity and angular velocity, in order to obtain the optimal obliquity. The PID control algorithm will combine the optimal obliquity and the real-time speed obtained by the high-precision encoder of the coaxial motor, to output the stable and reliable PWM signal, which can be sent to the motor drive chip. The motor drive chip can drive the operation of the two motors, to obtain the more ideal operation control effect. The results showed that the self-balancing robot could achieve stable self-balancing control.},
+  isbn = {978-981-13-1651-7}
+}
+
+@article{wangleiJiYuSTM32DeLiangLunZiPingHengXiaoCheKongZhiXiTongSheJi2018,
+  title = {{{基于STM32的两轮自平衡小车控制系统设计}}},
+  author = {王磊 and 宁欣},
+  year = {2018},
+  pages = {54},
+  abstract = {本文主要对两轮自平衡小车的姿态检测算法、PID控制算法两方面进行展开研究。用加速度传感器和陀螺仪传感器融合而成的姿态传感系统与互补滤波器组合得到自平衡小车准确而稳定的姿态信息,然后PID调节器则利用这些姿态信息输出电机控制信号,控制电机的转动,从而使小车得以平衡。},
+  isbn = {1006-7523},
+  journal = {山东工业技术},
+  keywords = {STM32;自平衡小车;控制系统;控制算法},
+  lccn = {37-1222/T},
+  number = {13}
+}
+
+@article{wangwenJiYuZiTaiJianCeDeLiangLunZiPingHengCheKongZhiFangFaYanJiu2019,
+  title = {基于姿态检测的两轮自平衡车控制方法研究},
+  author = {王文 and 邓三鹏 and 张香玲 and 祁宇明},
+  year = {2019},
+  pages = {18--22},
+  abstract = {针对两轮自平衡车姿态检测手段单一,存在控制不稳定可能造成损失的问题,提出了一种基于数据融合的控制方法。建立了自平衡车数学模型和平衡运动方程,将卡尔曼和互补两种滤波算法融合陀螺仪和加速度计获取的位姿数据求解出最优位姿参数,搭建了由NI myRIO为主控的两轮自平衡车进行实验,在这种控制策略下自平衡车姿态更稳定、转向更灵活。},
+  isbn = {1672-545X},
+  journal = {装备制造技术},
+  keywords = {姿态检测;自平衡控制;数据融合},
+  lccn = {45-1320/TH},
+  number = {10}
+}
+
+@phdthesis{wenshuangyunLiangLunZiPingHengXiaoCheKongZhiSuanFaDeYanJiuYuYouHua2017,
+  title = {两轮自平衡小车控制算法的研究与优化},
+  author = {闻双云 and 黄永平},
+  year = {2017},
+  abstract = {两轮自平衡车是轮式移动机器人的一种,它可以感知到外部环境的变动并且根据此变动做出相应的动态决策。它的结构源自于倒立摆模型,因此它也包含倒立摆的不确定性、非线性和强耦合性等特点。可见,两轮自平衡车可以作为一个检验各种控制算法的平台,因而对它的研究具有非常重要的理论意义。两轮自平衡小车内置了陀螺仪和加速度计用于采集小车的倾斜角度和角加速度,小车采用PID控制算法,通过调整比例P、积分I和微分D三个系数来使小车保持平衡性。传统的控制过程通常是依靠人工经验来调整这三个参数的,不仅费时费力,而且较难接近理想参数。所以,本文的研究目的是采用一些智能算法来实现控制过程的自适应调整功能,提出结合遗传算法和神经网络来实现PID参数自整定。此外,通过分析Kalman滤波算法在单神经元PID控制过程中的作用,将其应用在小车的数据滤波中。遗传算法和神经网络相结合的方法不改变PID控制过程,而是优化PID参数的调整过程以替代人工经验调整。遗传算法先在有效的参数范围内生成一代染色体种群,然后依据PID控制效果来计算适应度函数,根据优胜劣汰法则,选取适应度较高的染色体继续进化。但计算适应度的过程需要被控对象的参与,如果采用实体小车作为被控对象不仅不方便而且耗时长,为解决这一问题,该方法充分利用了神经网络的模拟功能,用训练好的神经网络模拟被控对象,协助遗传算法计算适应度函数,继而在遗传算法进化过程中逐代优化PID控制器的参数。单神经元网络改变了传统PID控制过程,把控制参数的调整转变为网络的权值迭代。单神经元结构简单,易于计算,可以在闭环控制过程中不断地调整网络的权值,从而优化控制效果。针对实际的单神经元PID控制器包含输出噪声,从而导致控制性能降低的问题,本文提出采用Kalman滤波理论来改进单神经元自适应PID控制算法。在改进算法中,引入状态空间的概念,采用时域上的递推方法进行数据滤波,控制对象的输出值经过Kalman滤波算法处理后再返回闭环控制系统。本文对两轮自平衡小车进行了实验,以及做了大量的仿真实验。结果表明,遗传算法和神经网络相结合的PID参数整定方法通常能获得较好的控制性能,具有较强的鲁棒性和较快的响应速度,可以替代传统的人工调试。通过Kalman滤波算法在单神经元PID控制过程的方波位置跟踪实验中验证了Kalman算法的滤波性能,将其应用在平衡小车的数据融合中也获得明显的滤波效果。本文借助遗传算法和神经网络等智能算法提出了PID自适应控制解决方案,并通过实验验证了方案的可行性,为智能控制和参数自整定领域提供了一些借鉴和参考。},
+  keywords = {PID控制;遗传算法;神经网络;Kalman滤波;嵌入式系统},
+  school = {吉林大学},
+  type = {硕士}
+}
+
+@article{wuzhenleiYiZhongJiYuPIDSuanFaDeZiPingHengCheKongZhiXiTongSheJi2019,
+  title = {{{一种基于PID算法的自平衡车控制系统设计}}},
+  author = {吴振磊 and 孙二威 and 李笑笑},
+  year = {2019},
+  volume = {48},
+  pages = {22--24},
+  abstract = {自平衡小车相当于小型移动机器人,它是集机械、通信、数据处理、电子等于一身的移动智能处理系统,有较复杂的非线性系统,因此自平衡小车非常适合作各种控制算法的平台。本论述设计了一种基于PID算法的自平衡车控制系统,根据控制要求对其进行了建模,从原理上解释了控制方式,并采用PID算法进行了实现。},
+  isbn = {1672-6375},
+  journal = {甘肃科技纵横},
+  keywords = {自平衡车;PID算法;平衡建模},
+  lccn = {62-1173/N},
+  number = {08}
+}
+
+@article{yangzhiqiangJiYuSTM32C8T6DeZhiNengErLunZiPingHengXiaoCheDeSheJi2020,
+  title = {{{基于STM32C8T6的智能二轮自平衡小车的设计}}},
+  author = {杨志强},
+  year = {2020},
+  pages = {9-11+37},
+  abstract = {随着电子科学技术的发展与进步,移动机器人越来越广泛的被应用在各种生产生活范围中,已成为新兴科学技术的宠儿。本文提出一种基于STM32C8T6芯片作为数据处理控制的微处理器,采用了传感器MPU6050为数据测量采集提供实时数据,再通过一阶滤波算法得出相对精确的车身姿态数据,经过数据融合调节两个独立电机的速度,从而到达所预期的小车直立平衡的状态。完成所需要的数据采集、整合、调控等,实现小车运动状态的控制。整个系统分为硬件系统和软件系统:硬件上实现对小车的姿态平衡状态,软件上是实现对小车各个传感器反馈的数据进行科学性分析,从而通过IO口控制独立电机的转动,完成小车自平衡的要求效果。},
+  isbn = {1000-8519},
+  journal = {电子测试},
+  keywords = {不稳定系统;STM32;姿态传感器;电机驱动;滤波算法},
+  lccn = {11-3927/TN},
+  number = {17}
+}
+
+@inproceedings{zimitModellingExperimentalAnalysis2018,
+  title = {Modelling and {{Experimental Analysis Two}}-{{Wheeled Self Balance Robot Using PID Controller}}},
+  booktitle = {Computational {{Science}} and {{Its Applications}} \textendash{} {{ICCSA}} 2018},
+  author = {Zimit, Aminu Yahaya and Yap, Hwa Jen and Hamza, Mukhtar Fatihu and Siradjuddin, Indrazno and Hendrik, Billy and Herawan, Tutut},
+  editor = {Gervasi, Osvaldo and Murgante, Beniamino and Misra, Sanjay and Stankova, Elena and Torre, Carmelo M. and Rocha, Ana Maria A.C. and Taniar, David and Apduhan, Bernady O. and Tarantino, Eufemia and Ryu, Yeonseung},
+  year = {2018},
+  pages = {683--698},
+  publisher = {{Springer International Publishing}},
+  address = {{Cham}},
+  abstract = {This research is aimed to design and implement Proportional Integral Derivative (PID) controller on Two-wheeled self-balance (TWSB) robot. The PID is used for the purpose of balancing the robot to stand still at upright position and to receive command via Bluetooth to follow the desired trajectory smoothly. The dynamic model of TWSB robot was developed using Lagrangian method. The PID gains were tuned until the optimum values are achieved. The Arduino based PID-controller was implemented on the TWSB robot in real world experiment. The experimental result shows the effectiveness of the proposed controller for stabilization and trajectory tracking control of TWSB robot.},
+  isbn = {978-3-319-95165-2}
+}
+
+
